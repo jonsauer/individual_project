@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artic Monkeys</title>
+    <link rel="stylesheet" href="css/reset.css"> 
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
+    
+
+   
+</head>
+
+<body>
+    <header>
+        <h1> <nav class = "monkeys">
+            <ul>
+                <li><a href ="mayer.html"> Mayer</a></li>
+                <li><a class = "current" href = "monkeys.html"> Monkeys</a></li>
+                <li><a href = "strokes.html"> Strokes</a></li>
+            </ul>
+    
+    
+        </nav> </h1>
+        <!-- Add artist image here -->
+        <img src="images/monkeys_main.jpg" alt="Artist Image" width = "600px" height = "300px">
+    </header>
+
+    <section id="background">
+        <h2>Background Information</h2>
+        <p>The Arctic Monkeys, a British rock band hailing from Sheffield, South Yorkshire, burst onto the music scene in the mid-2000s and quickly became one of the most influential and critically acclaimed acts of their generation. Formed in 2002, the band consists of Alex Turner (vocals, guitar), Jamie Cook (guitar), Nick O'Malley (bass), and Matt Helders (drums). Their debut album, "Whatever People Say I Am, That's What I'm Not," released in 2006, became the fastest-selling debut album in UK chart history, propelling the band to widespread fame. Known for their distinctive sound blending indie rock with elements of garage rock and punk, the Arctic Monkeys have consistently evolved their musical style with each subsequent album. Turner's clever and often observational lyrics, combined with the band's infectious energy, have endeared them to fans worldwide. Over the years, the Arctic Monkeys have continued to push creative boundaries, exploring different genres and maintaining their status as a cornerstone of contemporary rock music.</p>
+    </section>
+
+    <section id="albums">
+        <h2>Albums</h2>
+        <p>Click on the play button to hear a snippet from the most popular song on each album, then try and guess the song from the snippet!</p>
+        <ul>
+            <li><strong>Whatever People Say I Am, Thats What I Am Not:</strong> Release Date - 2006</li>
+            <img src="images/wpsiatwian.jpg" alt="Artist Image" width = "300">
+            <audio controls>
+                <source src="audio/dance.mp3" type="audio/mp3">
+            </audio>
+            <input type="text" id="i bet you look good on the dancefloor-input">
+             <button onclick="checkAnswer('i bet you look good on the dancefloor-input', 'i bet you look good on the dancefloor')">Submit</button>
+            <li><strong>Favourite Worst Nightmare:</strong> Release Date - 2007</li>
+            <img src="images/fwn.jpg" alt="Artist Image" width = "300">
+            <audio controls>
+                <source src="audio/505.mp3" type="audio/mp3">
+            </audio>
+            <input type="text" id="505-input">
+             <button onclick="checkAnswer('505-input', '505')">Submit</button>
+            <li><strong>Humbug:</strong> Release Date - 2009</li>
+            <img src="images/humbug.jpg" alt="Artist Image" width = "300">
+            <audio controls>
+                <source src="audio/cornerstone.mp3" type="audio/mp3">
+            </audio>
+            <input type="text" id="cornerstone-input">
+             <button onclick="checkAnswer('cornerstone-input', 'cornerstone')">Submit</button>
+            <li><strong>AM:</strong> Release Date - 2013</li>
+            <img src="images/am.jpg" alt="Artist Image" width = "300">
+            <audio controls>
+                <source src="audio/am.mp3" type="audio/mp3">
+            </audio>
+            <input type="text" id="do i wanna know-input">
+             <button onclick="checkAnswer('do i wanna know-input', 'do i wanna know')">Submit</button>
+            <li><strong>Tranquility Base Hotel & Casino</strong> Release Date - 2007</li>
+            <img src="images/tbhc.jpg" alt="Artist Image" width = "300">
+            <audio controls>
+                <source src="audio/four.mp3" type="audio/mp3">
+            </audio>
+            <input type="text" id="four out of five-input">
+             <button onclick="checkAnswer('four out of five-input', 'four out of five')">Submit</button>
+            <li><strong>The Car</strong> Release Date - 2022</li>
+            <img src="images/tc.jpg" alt="Artist Image" width = "300">
+            <audio controls>
+                <source src="audio/mirror.mp3" type="audio/mp3">
+            </audio>
+            <input type="text" id="there'd better be a mirrorball-input">
+             <button onclick='checkAnswer("thered better be a mirrorball-input", "thered better be a mirrorball")'>Submit</button>
+            
+        </ul>
+    </section>
+
+    <section id="current-activities">
+        <h2>What Are They Doing Now</h2>
+        <p>Body Paint, a song off of Arctic Monkeys most recent album release, has been nominated for a grammy for Best Alternative Music Preformance. They also recently finished up their 2023 tour, which ended on October 23rd. </p>
+    </section>
+
+    <section id="fun-facts">
+        <h2>Fun Facts</h2>
+        <ul><h3>Youngest Band to Win the Mercury Prize:</h3>
+            <li> Arctic Monkeys achieved widespread recognition with their debut album, "Whatever People Say I Am, That's What I'm Not" in 2006. Notably, the band members were incredibly young at the time, with the lead singer, Alex Turner, being just 20 years old. The album went on to win the Mercury Prize, making Arctic Monkeys the youngest band ever to receive this prestigious award.</li>
+            <h3>Record-breaking Debut Album:</h3>
+            <li> "Whatever People Say I Am, That's What I'm Not" also holds the record for the fastest-selling debut album in UK chart history. The album's energetic and lyrically sharp tracks resonated with a broad audience, and its success marked Arctic Monkeys as one of the most significant and influential bands of the mid-2000s indie rock scene.</li>
+            <h3>Unique Album Cover Artwork:</h3>
+            <li> The cover art for their fifth studio album, "AM" (2013), gained attention for its minimalist yet striking design. The black and white image features the album title, stylized as a set of headlights, against a plain background. The simplicity of the cover became iconic and was praised for its bold aesthetic. It's a testament to Arctic Monkeys' ability to make a statement not only with their music but also with their visual presentation.</li>
+            <!-- Add more fun facts as needed -->
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Music Artist Website. All rights reserved.</p>
+    </footer>
+    <script src="js/java.js"></script>
+</body>
+
+</html>

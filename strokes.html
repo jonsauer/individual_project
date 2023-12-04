@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Strokes</title>
+    <link rel="stylesheet" href="css/reset.css"> 
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <header>
+        <h1><nav class = "strokes">
+            <ul>
+                <li><a href ="mayer.html"> Mayer</a></li>
+                <li><a href = "monkeys.html"> Monkeys</a></li>
+                <li><a class = "current" href = "strokes.html"> Strokes</a></li>
+            </ul>
+            
+    
+        </nav></h1>
+        <!-- Add artist image here -->
+        <img src="images/main_strokes.jpg" alt="Artist Image" width = "600px" height = "300px"> 
+    </header>
+
+    <section id="background">
+        <h2>Background Information</h2>
+        <p>The Strokes, an iconic American rock band, emerged from the vibrant New York City music scene in the early 2000s, infusing a breath of fresh air into the rock genre. Formed in 1998, the band comprises Julian Casablancas (vocals), Nick Valensi (guitar), Albert Hammond Jr. (guitar), Nikolai Fraiture (bass), and Fabrizio Moretti (drums). Their debut album, "Is This It," released in 2001, received widespread acclaim for its raw, garage-rock sound and Casablancas' distinctive vocal style. The Strokes became the flag bearers of the post-punk revival movement, influencing a new wave of bands and helping to reshape the landscape of rock music. With hits like "Last Nite" and "Someday," The Strokes gained international recognition and established themselves as a seminal force in alternative rock. Their subsequent albums, including "Room on Fire" and "First Impressions of Earth," further solidified their place in the music industry, showcasing a blend of catchy melodies and edgy guitar work. The Strokes' enduring impact on the rock scene has earned them a dedicated fan base and cemented their legacy as one of the defining bands of the early 21st century.</p>
+    </section>
+
+    <section id="albums">
+        <h2>Albums</h2>
+        <p>Click on the play button to hear a snippet from the most popular song on each album, then try and guess the song from the snippet!</p>
+        <ul>
+            <li><strong>Is This it:</strong> Release Date - 2001</li>
+            <img src="images/isi.jpg" alt="Artist Image" width = "300" height="300">
+            <audio controls>
+                <source src="audio/someday.mp3" type="audio/mp3">
+            </audio>
+            <input type="text" id="someday-input">
+             <button onclick="checkAnswer('someday-input', 'Someday')">Submit</button>
+            <li><strong>Room on Fire:</strong> Release Date - 2003</li>
+            <img src="images/rof.jpg" alt="Artist Image" width = "300">
+            <audio controls id = "reptilia">
+             <source src="audio/reptilia.mp3" type="audio/mp3">
+            </audio>
+            <input type="text" id="reptilia-input">
+             <button onclick="checkAnswer('reptilia-input', 'reptilia')">Submit</button>
+            <li><strong>First Impressions of Earth:</strong> Release Date - 2005</li>
+            <img src="images/fioe.jpg" alt="Artist Image" width = "300">
+            <audio controls>
+                <source src="audio/fioe.mp3" type="audio/mp3">
+            </audio>
+            <input type="text" id="you only live once-input">
+             <button onclick="checkAnswer('you only live once-input', 'you only live once')">Submit</button>
+            <li><strong>Angles:</strong> Release Date - 2011</li>
+            <img src="images/angles.jpg" alt="Artist Image" width = "300">
+            <audio controls>
+                <source src="audio/machu_pichu.mp3" type="audio/mp3">
+            </audio>
+            <input type="text" id="machu picchu-input">
+             <button onclick="checkAnswer('machu picchu-input', 'machu picchu')">Submit</button>
+            <li><strong>Comedown Machine:</strong> Release Date - 2013</li>
+            <img src="images/cm.jpg" alt="Artist Image" width = "300">
+            <audio controls>
+                <source src="audio/japan.mp3" type="audio/mp3">
+            </audio>
+            <input type="text" id="welcome to japan-input">
+             <button onclick="checkAnswer('welcome to japan-input', 'welcome to japan')">Submit</button>
+            <li><strong>The New Abnormal:</strong> Release Date - 2020</li>
+            <img src="images/tna.jpg" alt="Artist Image" width = "300">
+            <audio controls>
+                <source src="audio/adults.mp3" type="audio/mp3">
+            </audio>
+            <input type="text" id="the adults are talking-input">
+             <button onclick="checkAnswer('the adults are talking-input', 'the adults are talking')">Submit</button>
+            
+        </ul>
+    </section>
+
+    <section id="current-activities">
+        <h2>What Are They Doing Now</h2>
+        <p>The Strokes currently haven't released any new music after The New Abnormal. However, members such as Albert Hammond Jr. has released solo projects since this point. The most recent being Melodies on Hiatus, which was released in 2023. The Strokes also recently finished up their tour with RHCP and Thundercat, which ended in 2023 </p>
+    </section>
+
+    <section id="fun-facts">
+        <h2>Fun Facts</h2>
+        <ul><h3>Album Cover Art Connection:</h3>
+            <li>The iconic cover art for The Strokes' debut album, "Is This It," created quite a buzz. The original cover featured a photograph of a woman's naked behind and hip, taken by Colin Lane. However, due to concerns about the image being too explicit, the cover was altered for the U.S. release. The U.S. version showcased subatomic particle trails instead. The original cover was used for the international release and later for the 2019 reissue of the album.</li>
+            <h3>Nick Valensi's Father is a Renowned Photographer:</h3>
+            <li> Nick Valensi, the guitarist for The Strokes, is the son of American photographer and film director Albert Valensi. His father is known for capturing iconic images of various influential figures, including Andy Warhol, Bob Dylan, and Salvador Dalí. This artistic background likely contributed to Nick's appreciation for aesthetics and visual elements, which can be seen in The Strokes' overall image and album artwork.</li>
+            <h3>First Preformance at the Spiral:</h3>
+            <li> The Strokes' first-ever public performance took place at the Spiral, a venue in Manhattan, in 1999. The band's early gigs in New York City helped them build a local fanbase and gain attention from record labels. This period marked the beginning of their rapid rise to prominence in the early 2000s, eventually leading to the widespread success of their debut album, "Is This It."</li>
+            <!-- Add more fun facts as needed -->
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Music Artist Website. All rights reserved.</p>
+    </footer>
+    <script src="js/java.js"></script>
+</body>
+
+</html>
+
+
+
